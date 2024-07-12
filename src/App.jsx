@@ -1,8 +1,14 @@
+import Body from "./components/Body"
+import Footer from "./components/Footer"
+import Header from "./components/Header"
+
 function App() {
   return (
-    <>
-      <h1 className="bg-red-600">Hello World</h1>
-    </>
+    <div className="flex flex-col h-screen justify-between">
+      <Header />
+      <Body />
+      <Footer />
+    </div>
   )
 }
 
